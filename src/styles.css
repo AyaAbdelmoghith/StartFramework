@@ -18,6 +18,12 @@ p{
     margin-bottom: 0;
 }
 /* Common section */
+section{
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .line{
     width: 90px;
     height: 4px;
